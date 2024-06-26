@@ -8,7 +8,7 @@ module parking_test_bench();
         clk = 0;
         forever #5 clk = ~clk;
     end
-    Parking parking(ci, uci, ce, uce, clk, upc, pc, uvs, vs, uivs, ivs);
+    parking parking(ci, uci, ce, uce, clk, upc, pc, uvs, vs, uivs, ivs);
 
     initial begin
         ci = 0;
